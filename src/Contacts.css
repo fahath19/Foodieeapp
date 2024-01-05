@@ -1,0 +1,84 @@
+img{
+    width: 100%;
+}
+.contact-container     {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: sans-serif;
+    background-color: rgb(243, 245, 245);
+    flex-wrap: wrap;
+}
+form{}
+.ctitle{
+    text-align: center;
+    color: rgb(33, 32, 32);
+}
+.formtitle{
+    font-size: 1.8rem;
+    margin:  10px;
+}
+.name-input input{
+    width: 300px;
+    height: 40px;
+    padding: 10px 20px;
+    font-size: 1.4rem;
+    background-color: rgb(122, 163, 238);
+    border: none;
+    border-radius: 30px;
+    
+
+
+
+}
+.name-input input::placeholder{
+    color: rgb(235, 237, 239);
+}
+.email-input input{
+    width: 300px;
+    height: 40px;
+    padding: 10px 20px;
+    font-size: 1.4rem;
+    /* background-color: rgb(226, 236, 255); */
+    background-color: rgb(122, 163, 238);
+    border: none;
+    border: none;
+    border-radius: 30px;
+    margin: 10px 0;
+}
+.email-input input::placeholder{ 
+     /* color: rgb(168, 174, 181); */
+     color: rgb(235, 237, 239);
+}
+textarea{
+    width: 300px;
+    height: 80px;
+    padding: 15px;
+    resize: none;
+    font-size: 1.5rem;
+    background-color: rgb(122, 163, 238);
+
+    border: none;
+    border-radius: 20px;
+}
+textarea::placeholder{ 
+    color: rgb(235, 237, 239);
+}
+.sendbtn{
+    width: 300px;
+    height: 50px;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    background-color: rgb(51, 171, 219);
+    color: white;
+    cursor: pointer;
+    margin:  10px 0;
+}
+
+.contact-img{
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+}

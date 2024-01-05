@@ -1,0 +1,106 @@
+img{
+    width: 100%;
+
+}
+
+.foodboxs-maincontainer    {
+}
+.foodboxs-subcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+.food-box{
+   
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(248, 247, 245);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+ .foodbox-img{
+   
+     width: 350px;
+     height: 250px;
+     overflow: hidden;
+     border-radius: 15px;
+
+
+}
+.food-detailsbox{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 300;
+
+}
+.food-name-ratingbox,.hotel-name-pricebox{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem 10px;
+
+}
+.food-name{
+    color: rgb(59, 57, 57);
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.rating{
+    color: white;
+    background-color: green;
+    padding:5px 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+.hotel-name-pricebox{
+  
+
+}
+.hotel-name{
+    color: rgb(59, 57, 57);
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.food-price{ 
+    color: rgb(59, 57, 57);
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.food-box:hover{
+  
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.rubes{}
+
+
+@media screen and (max-width: 500px) {
+
+
+    /* .foodbox-img{
+        width: 380px;
+        height: 250px;
+        overflow: hidden;
+        border-radius: 15px;
+   
+   
+   }
+   .food-box{
+    width: 0px;
+
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(248, 247, 245);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin: 1rem 0 ;
+} */
+
+.foodboxs-subcontainer{
+    
+}
+}

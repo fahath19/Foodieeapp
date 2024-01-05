@@ -1,0 +1,66 @@
+img{
+    width: 100%;
+
+}
+
+
+.about-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(202, 170, 234);
+    background-image: url(img/banners/banner2.jpg);
+    border: 1px solid black;
+}
+.about-info{
+
+}
+.about-info li{
+    list-style-type: none;
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    user-select: none;
+    padding-bottom: 15px;
+
+}
+.full-stop {
+  color: green;
+  padding: 0px 10px 0px 0 ;
+  margin-top: 3rem;
+}
+.buybtn{
+    width: 200px;
+    height: 50px;
+    font-size: 1.5rem;
+    display: block;
+    margin: 0 auto;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.about-info:hover button{
+    background-color: rgb(98, 208, 98);
+    color: gray;
+
+}
+
+
+.aboutimg-div{
+width: 450px;
+height: 300px;
+overflow: hidden;
+border: 1px solid rgb(205, 197, 197);
+/* background-image: url(img/banners/banner2.jpg); */
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+
+}
+.about-ul-container{}

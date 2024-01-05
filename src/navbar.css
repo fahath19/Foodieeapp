@@ -1,0 +1,159 @@
+header{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: rgb(223, 181, 95);
+      padding: 20px 2rem;
+      font-family: sans-serif;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 50;
+}
+/* logo styling */
+.logo{
+    font-size: 2.3rem;
+    color: rgb(242, 242, 253);
+    font-variant: small-caps;
+     padding: 0 2rem;
+}
+.sp1{
+   color: rgb(16, 123, 10);
+   font-size: 2.8rem;
+   font-family: 'Times New Roman', Times, serif
+}
+.sp2{
+    color: rgb(226, 104, 43);
+}
+nav{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding:  0 30px;
+    /* transition: all 1.5s ease-in-out 1s; */
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    cursor: pointer;
+    position: relative;
+
+}
+nav li{
+     margin: 0 20px;
+     font-size: 1.6rem;
+}
+.search-input{
+   width: 250px;
+   height: 30px;
+   padding: 0 10px ;
+   font-size: 1.2rem;
+   border-radius: 10px;
+   border: none;
+   outline: none;
+}
+.signin-btn{
+    margin: 0 10px;
+    width: 150px;
+    height: 40px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: rgb(16, 16, 192);
+    border: none;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+nav li:hover{
+   color: red;
+}
+.closebtn{
+    position: absolute;
+    top: 10px;
+    right: 2rem;
+    display: none;
+    font-size: 1.8rem;
+    color: red;
+}
+.burger{
+    display: none;
+    color: rgb(251, 251, 251);
+    font-size: 2.8rem;
+    cursor: pointer;
+}
+@media screen and ( max-width:600px ) {
+  
+   
+    .logo{
+        font-size: 1.8rem;
+        color: rgb(242, 242, 253);
+        font-variant: small-caps;
+         padding: 0 2px;
+    }
+    .sp1{
+        font-size: 2rem;
+    }
+    .signin-btn{
+        color: white;
+        width: 120px;
+
+    }
+    .search-input{
+        padding: 20px ;
+        width: 200px;
+    }
+   li{
+    margin: 1rem 0 ;
+   }
+  
+   .active{
+   
+    width: 300px;
+    height: 100vh;
+    background-color: rgb(8, 26, 114);
+    position: fixed;
+    flex-direction: column;
+    top: 0;
+    left: -300px;
+    padding: 2rem ;
+    text-align: center;
+    transition: all 0.5s ease-in-out 0.1s;
+}
+.burger{
+    display: initial;
+}
+.show{
+    left: 0;
+}
+.closebtn{
+    display: initial;
+}
+}
+/* @media screen and ( max-width: 500px ) {
+    body{
+        background-color: red;
+    }
+    .burger{
+        display: initial;
+    }
+    .show{
+        left: 0;
+    }
+    .closebtn{
+        display: initial;
+    }
+} */
+
+/* 
+.nav-bar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    background: rgb(138, 51, 220);
+    
+} */

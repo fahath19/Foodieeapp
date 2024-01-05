@@ -1,0 +1,55 @@
+
+.banner{
+      width: 100%;
+      height: 100vh;
+      background-color: rgb(197, 115, 115);
+      background-image: url(img/banners/banner1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: 4rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;;
+      color: rgb(112, 112, 167);
+      padding: 0% 15%;
+
+}
+h1{
+      font-size: 3.5rem;
+      color: black;
+      margin-top: 2rem;
+}
+h2{
+    font-size: 2.5rem;
+    color: rgb(10, 120, 26);
+    /* margin: 0 5rem; */
+
+}     
+h3{
+      font-size: 1.7rem;
+      margin: 10px -3rem;
+      color: rgb(162, 18, 18);
+
+}
+p{
+      font-size: 1.5rem;
+ text-align: center;
+ margin: 10px -5rem;
+
+ color: rgb(49, 3, 124);
+
+
+}
+@media screen and ( max-width:500px ) {
+    
+      .banner{
+            max-width: auto;
+      }
+      .banner p{
+            margin: 0;
+
+            font-size: 1.2rem;
+      }
+      
+}
